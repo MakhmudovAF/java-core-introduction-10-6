@@ -8,7 +8,7 @@ public class Praktikum {
         System.out.println("Какой год вы хотите проверить?");
         int year = scanner.nextInt();
         boolean isLeapYear = (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0);
-        
+
         if (!isLeapYear) {
             System.out.println("Согласно григорианскому календарю, этот год - не високосный!");
         } else {
